@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ecbbd99-8eea-4ebe-a5b0-9993503bd2f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RectangleProgram/src/RectangleProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymtemTime/src/SystemTime.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LinearEquationResolver" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinearEquationResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#351#383#1" expanded="true" />
+                <element signature="e#426#458#1" expanded="true" />
+                <element signature="e#501#533#1" expanded="true" />
+                <element signature="e#543#866#0" expanded="true" />
+                <element signature="e#543#866#0" expanded="true" />
+                <element signature="e#569#597#1" expanded="true" />
+                <element signature="e#628#658#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/LinearEquationResolver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/google-java-format.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LinearEquationResolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinearEquationResolver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LinearEquationResolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinearEquationResolver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="LinearEquationResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearEquationResolver" />
+      <module name="LinearEquationResolver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LinearEquationResolver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ecbbd99-8eea-4ebe-a5b0-9993503bd2f1" name="Default Changelist" comment="" />
+      <created>1559546286005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559546286005</updated>
+      <workItem from="1559546289441" duration="621000" />
+      <workItem from="1559546952171" duration="649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1270000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.08774584" />
+      <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.08698941" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50080514" side_tool="true" weight="0.08698941" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32920355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="a != 0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/LinearEquationResolver.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinearEquationResolver.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>a != 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#26555#26654#0" expanded="true" />
+            <element signature="e#26560#26570#1" expanded="true" />
+            <element signature="e#26555#26654#0" expanded="true" />
+            <element signature="e#26569#26570#0" expanded="true" />
+            <element signature="e#26555#26654#0" expanded="true" />
+            <element signature="e#26578#26579#0" expanded="true" />
+            <element signature="e#26555#26654#0" expanded="true" />
+            <element signature="e#26555#26654#0" expanded="true" />
+            <element signature="e#26615#26643#0" expanded="true" />
+            <element signature="e#26615#26643#0" expanded="true" />
+            <element signature="e#26643#26644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="869" selection-start-line="869" selection-end-line="869" />
+          <folding>
+            <element signature="e#24839#24840#0" expanded="true" />
+            <element signature="e#24879#24880#0" expanded="true" />
+            <element signature="e#24885#24886#0" expanded="true" />
+            <element signature="e#33051#33052#0" expanded="true" />
+            <element signature="e#33121#33122#0" expanded="true" />
+            <element signature="e#33131#33324#0" expanded="true" />
+            <element signature="e#33135#33145#0" expanded="true" />
+            <element signature="e#33131#33324#0" expanded="true" />
+            <element signature="e#33222#33223#0" expanded="true" />
+            <element signature="e#115499#115500#0" expanded="true" />
+            <element signature="e#115520#115521#0" expanded="true" />
+            <element signature="e#115526#115527#0" expanded="true" />
+            <element signature="e#121591#121592#0" expanded="true" />
+            <element signature="e#121633#121647#0" expanded="true" />
+            <element signature="e#121647#121648#0" expanded="true" />
+            <element signature="e#121653#121654#0" expanded="true" />
+            <element signature="e#132657#132658#0" expanded="true" />
+            <element signature="e#132705#132706#0" expanded="true" />
+            <element signature="e#132711#132712#0" expanded="true" />
+            <element signature="e#132795#132796#0" expanded="true" />
+            <element signature="e#132846#132847#0" expanded="true" />
+            <element signature="e#132852#132853#0" expanded="true" />
+            <element signature="e#134121#134324#0" expanded="true" />
+            <element signature="e#134121#134324#0" expanded="true" />
+            <element signature="e#134724#134911#0" expanded="true" />
+            <element signature="e#134724#134911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/HeapCharBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#1200#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+          <folding>
+            <element signature="e#6533#6534#0" expanded="true" />
+            <element signature="e#6563#6564#0" expanded="true" />
+            <element signature="e#7513#7573#0" expanded="true" />
+            <element signature="e#7513#7573#0" expanded="true" />
+            <element signature="e#7513#7573#0" expanded="true" />
+            <element signature="e#7513#7573#0" expanded="true" />
+            <element signature="e#7601#7602#0" expanded="true" />
+            <element signature="e#7621#7622#0" expanded="true" />
+            <element signature="e#11420#11509#0" expanded="true" />
+            <element signature="e#11420#11509#0" expanded="true" />
+            <element signature="e#11534#11535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/CharBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="1098" selection-start-line="1098" selection-end-line="1098" />
+          <folding>
+            <element signature="e#3801#3802#0" expanded="true" />
+            <element signature="e#6700#6701#0" expanded="true" />
+            <element signature="e#30405#30406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/sun/nio/cs/StreamEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
+          <folding>
+            <element signature="e#544#607#0" expanded="true" />
+            <element signature="e#544#607#0" expanded="true" />
+            <element signature="e#3044#3292#0" expanded="true" />
+            <element signature="e#3044#3292#0" expanded="true" />
+            <element signature="e#3239#3292#0" expanded="true" />
+            <element signature="e#3239#3292#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+            <element signature="e#7735#7783#1" expanded="true" />
+            <element signature="e#7782#7783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/OutputStreamWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+          <folding>
+            <element signature="e#6245#6246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/BufferedWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#2818#2886#0" expanded="true" />
+            <element signature="e#2818#2886#0" expanded="true" />
+            <element signature="e#2818#2886#0" expanded="true" />
+            <element signature="e#2818#2886#0" expanded="true" />
+            <element signature="e#2818#2886#0" expanded="true" />
+            <element signature="e#2818#2886#0" expanded="true" />
+            <element signature="e#2818#2886#0" expanded="true" />
+            <element signature="e#3202#3203#0" expanded="true" />
+            <element signature="e#3216#3258#0" expanded="true" />
+            <element signature="e#3216#3258#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#3894#3914#0" expanded="true" />
+            <element signature="e#3894#3914#0" expanded="true" />
+            <element signature="e#3913#3914#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
+            <element signature="e#7043#7044#0" expanded="true" />
+            <element signature="e#7058#7069#0" expanded="true" />
+            <element signature="e#7084#7085#0" expanded="true" />
+            <element signature="e#7098#7364#0" expanded="true" />
+            <element signature="e#7098#7364#0" expanded="true" />
+            <element signature="e#7130#7168#1" expanded="true" />
+            <element signature="e#7167#7168#0" expanded="true" />
+            <element signature="e#7219#7220#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+            <element signature="e#7274#7275#0" expanded="true" />
+            <element signature="e#7292#7350#0" expanded="true" />
+            <element signature="e#7292#7350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="241" column="14" selection-start-line="241" selection-start-column="14" selection-end-line="241" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="601" column="21" lean-forward="true" selection-start-line="601" selection-start-column="21" selection-end-line="601" selection-end-column="21" />
+          <folding>
+            <element signature="e#15798#15866#0" expanded="true" />
+            <element signature="e#15798#15866#0" expanded="true" />
+            <element signature="e#15798#15866#0" expanded="true" />
+            <element signature="e#15798#15866#0" expanded="true" />
+            <element signature="e#15798#15866#0" expanded="true" />
+            <element signature="e#15798#15866#0" expanded="true" />
+            <element signature="e#15798#15866#0" expanded="true" />
+            <element signature="e#21936#21937#0" expanded="true" />
+            <element signature="e#21970#21971#0" expanded="true" />
+            <element signature="e#22009#22010#0" expanded="true" />
+            <element signature="e#26596#26597#0" expanded="true" />
+            <element signature="e#26612#26629#0" expanded="true" />
+            <element signature="e#26612#26629#0" expanded="true" />
+            <element signature="e#26630#26631#0" expanded="true" />
+            <element signature="e#26636#26637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinearEquationResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#351#383#1" expanded="true" />
+            <element signature="e#426#458#1" expanded="true" />
+            <element signature="e#501#533#1" expanded="true" />
+            <element signature="e#543#866#0" expanded="true" />
+            <element signature="e#543#866#0" expanded="true" />
+            <element signature="e#569#597#1" expanded="true" />
+            <element signature="e#628#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
