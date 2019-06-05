@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39994447-55ef-4730-b400-8bdc05a1109c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sum the numbers at the main diagonal of the square matrix/src/SumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sum the numbers in a given column/src/SumNumberInColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../count chart in value/src/CountValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddInArray.java" afterDir="false" />
+    <list default="true" id="ec722651-eab3-4752-a84b-f023862ee600" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CountValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Delete value Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Delete value Array/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Delete value Array/src/DeleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Delete value Array/src/DeleteArray.java" afterDir="false" />
     </list>
@@ -22,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AddInArray.java">
+        <entry file="file://$PROJECT_DIR$/src/CountValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -45,7 +42,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AddInArray.java" />
+        <option value="$PROJECT_DIR$/src/CountValue.java" />
       </list>
     </option>
   </component>
@@ -68,26 +65,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Add Element Value to Array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add Element Value to Array" type="462c0819:PsiDirectoryNode" />
+              <item name="count chart in value" type="b2602c69:ProjectViewProjectNode" />
+              <item name="count chart in value" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -104,16 +99,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="AddInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AddInArray" />
-      <module name="Add Element Value to Array" />
+    <configuration name="CountValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountValue" />
+      <module name="count chart in value" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AddInArray" />
+        <item itemvalue="Application.CountValue" />
       </list>
     </recent_temporary>
   </component>
@@ -122,18 +117,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39994447-55ef-4730-b400-8bdc05a1109c" name="Default Changelist" comment="" />
-      <created>1559618467862</created>
+      <changelist id="ec722651-eab3-4752-a84b-f023862ee600" name="Default Changelist" comment="" />
+      <created>1559628088412</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559618467862</updated>
-      <workItem from="1559618469415" duration="1829000" />
-      <workItem from="1559697139870" duration="416000" />
+      <updated>1559628088412</updated>
+      <workItem from="1559628089875" duration="1329000" />
+      <workItem from="1559634004128" duration="1246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2245000" />
+    <option name="totallyTimeSpent" value="2575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -157,7 +152,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -173,10 +168,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AddInArray.java">
+    <entry file="file://$PROJECT_DIR$/src/CountValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>

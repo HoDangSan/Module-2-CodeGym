@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe0b30f-489e-4441-8295-28ed40e3e768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Add Element Value to Array/src/AddInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeleteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Max Array 2 Way/src/MaxArray2Way.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Min Array/src/MinArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../combine 2 arrays into 1 array/src/Combine2Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session2/Used Class ArrayIndexOutOfBoundsException/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session2/Used Class ArrayIndexOutOfBoundsException/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0fe0b30f-489e-4441-8295-28ed40e3e768" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DeleteArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state relative-caret-position="403">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -90,6 +83,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -131,16 +125,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559622611247</updated>
-      <workItem from="1559622614526" duration="2660000" />
+      <workItem from="1559622614526" duration="3286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2660000" />
+    <option name="totallyTimeSpent" value="3286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -157,7 +150,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -179,8 +172,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DeleteArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state relative-caret-position="403">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>

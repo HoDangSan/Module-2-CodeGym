@@ -26,7 +26,7 @@ public class AddInArray {
             System.out.print(array[j] + "\t");
         }
 
-        System.out.println("Enter value need add to array: ");
+        System.out.println("\n Enter value need add to array: ");
         int value = scanner.nextInt();
         System.out.println("Enter Index: ");
         int index = scanner.nextInt();

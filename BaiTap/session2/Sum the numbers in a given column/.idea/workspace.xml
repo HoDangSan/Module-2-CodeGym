@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39994447-55ef-4730-b400-8bdc05a1109c" name="Default Changelist" comment="">
+    <list default="true" id="c1d91467-ccac-4379-8ae4-115095d026c6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Sum the numbers at the main diagonal of the square matrix/src/SumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sum the numbers in a given column/src/SumNumberInColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumNumberInColumn.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../count chart in value/src/CountValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Delete value Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Delete value Array/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Delete value Array/src/DeleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Delete value Array/src/DeleteArray.java" afterDir="false" />
     </list>
@@ -16,21 +15,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AddInArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,7 +49,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AddInArray.java" />
+        <option value="$PROJECT_DIR$/../Sum the numbers at the main diagonal of the square matrix/src/SumNumber.java" />
+        <option value="$PROJECT_DIR$/src/SumNumberInColumn.java" />
       </list>
     </option>
   </component>
@@ -68,26 +73,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Add Element Value to Array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add Element Value to Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Add Element Value to Array" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -103,10 +100,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AddInArray">
     <configuration name="AddInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddInArray" />
-      <module name="Add Element Value to Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumNumberInColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumNumberInColumn" />
+      <module name="Sum the numbers in a given column" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +117,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AddInArray" />
+        <item itemvalue="Application.SumNumberInColumn" />
       </list>
     </recent_temporary>
   </component>
@@ -122,23 +126,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39994447-55ef-4730-b400-8bdc05a1109c" name="Default Changelist" comment="" />
-      <created>1559618467862</created>
+      <changelist id="c1d91467-ccac-4379-8ae4-115095d026c6" name="Default Changelist" comment="" />
+      <created>1559636442376</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559618467862</updated>
-      <workItem from="1559618469415" duration="1829000" />
-      <workItem from="1559697139870" duration="416000" />
+      <updated>1559636442376</updated>
+      <workItem from="1559636445898" duration="2414000" />
+      <workItem from="1559696586286" duration="546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2245000" />
+    <option name="totallyTimeSpent" value="2960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -162,7 +166,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -173,10 +177,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AddInArray.java">
+    <entry file="file://$PROJECT_DIR$/src/SumNumberInColumn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="267">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sum the numbers at the main diagonal of the square matrix/src/SumNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Add Element Value to Array/src/AddInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -57,7 +57,7 @@ public class DeleteArray {
             System.out.print(array[i] + "\t");
             i++;
         }
-        
+
         System.out.println(size);
     }
 }
