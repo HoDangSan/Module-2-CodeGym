@@ -17,7 +17,7 @@ public class ShowGeometric {
             }
             System.out.println("");
         }
-
+        // triangle
         System.out.println("Draw triangle");
         System.out.println("Enter Width: ");
         int widthtriangle = scanner.nextInt();

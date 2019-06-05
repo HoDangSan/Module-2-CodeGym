@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf1bea50-98c7-4c3e-99f2-13cc7301d4b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sum the numbers at the main diagonal of the square matrix/src/SumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sum the numbers in a given column/src/SumNumberInColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UsedClassIllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../count chart in value/src/CountValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Add Element Value to Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Add Element Value to Array/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Add Element Value to Array/out/production/Add Element Value to Array/AddInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Add Element Value to Array/out/production/Add Element Value to Array/AddInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Add Element Value to Array/src/AddInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Add Element Value to Array/src/AddInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Delete value Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Delete value Array/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Delete value Array/src/DeleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Delete value Array/src/DeleteArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf1bea50-98c7-4c3e-99f2-13cc7301d4b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -92,8 +82,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Delete value Array" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -133,16 +125,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559697558052</updated>
-      <workItem from="1559697559583" duration="1532000" />
+      <workItem from="1559697559583" duration="2144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1532000" />
+    <option name="totallyTimeSpent" value="2144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />

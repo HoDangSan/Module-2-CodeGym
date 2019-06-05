@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2893dcae-e845-47bd-9d33-58ad4cb64014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CheckLeapYear/src/CheckLeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignMenuApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Greeting/src/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LinearEquationResolver/src/LinearEquationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prime/src/CheckPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RectangleProgram/src/RectangleProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Student/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SymtemTime/src/SystemTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dayinMonth/src/dayinMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../read text to number/src/TextToNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session1/Display of geometric types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session1/Display of geometric types/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session1/Display of geometric types/out/production/Display of geometric types/ShowGeometric.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session1/Display of geometric types/out/production/Display of geometric types/ShowGeometric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session1/Display of geometric types/src/ShowGeometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session1/Display of geometric types/src/ShowGeometric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session2/Delete value Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session2/Delete value Array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session2/Delete value Array/out/production/Delete value Array/DeleteArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session2/Delete value Array/out/production/Delete value Array/DeleteArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session2/Delete value Array/src/DeleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session2/Delete value Array/src/DeleteArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session2/User Class IllegalTriangleException/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session2/User Class IllegalTriangleException/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignMenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignMenuApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +23,12 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DesignMenuApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state>
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -73,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,11 +83,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../BaiTap/session1/Display of geometric types" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -131,28 +131,23 @@
       <option name="presentableId" value="Default" />
       <updated>1559554612528</updated>
       <workItem from="1559554615677" duration="334000" />
+      <workItem from="1559703288903" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334000" />
+    <option name="totallyTimeSpent" value="604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
@@ -160,15 +155,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,8 +178,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DesignMenuApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state>
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
