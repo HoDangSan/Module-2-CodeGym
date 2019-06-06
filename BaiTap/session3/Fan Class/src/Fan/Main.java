@@ -14,9 +14,9 @@ public class Main {
         fan1.setOn(true);
         fan1.setColor("Yellow");
         fan1.setRadius(10);
-        fan1.setSpeed(3);
+        fan1.setSpeed(Fan.FAST);
 
-        fan2.setSpeed(2);
+        fan2.setSpeed(Fan.MEDIUM);
 
         System.out.println(fan1.toString());
         System.out.println(fan2.toString());
