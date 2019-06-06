@@ -7,7 +7,7 @@ public class StopWatch {
     Date date = new Date();
 
     public StopWatch() {
-        this.startTime = date.getTime();
+        this.startTime = System.currentTimeMillis();
     }
 
     public long getterStarTime() {
@@ -19,11 +19,11 @@ public class StopWatch {
     }
 
     public void start() {
-        this.startTime = date.getTime();
+        this.startTime = System.currentTimeMillis();
     }
 
     public void stop() {
-        this.endTime = date.getTime();
+        this.endTime = System.currentTimeMillis();
     }
 
     public int getElapsedTime() {

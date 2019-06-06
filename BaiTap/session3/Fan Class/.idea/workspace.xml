@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15cc0f6e-9f0e-493c-b03e-cbfe4bd0aa21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Fan/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuadraticEquation/src/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuadraticEquation/src/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StopWatch/src/StopWatch/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StopWatch/src/StopWatch/StopWatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session1/Display of geometric types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session1/Display of geometric types/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session1/Display of geometric types/out/production/Display of geometric types/ShowGeometric.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../session1/Display of geometric types/out/production/Display of geometric types/ShowGeometric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session1/Display of geometric types/src/ShowGeometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session1/Display of geometric types/src/ShowGeometric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/Delete value Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/Delete value Array/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/Delete value Array/out/production/Delete value Array/DeleteArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/Delete value Array/out/production/Delete value Array/DeleteArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/Delete value Array/src/DeleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/Delete value Array/src/DeleteArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/User Class IllegalTriangleException/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/User Class IllegalTriangleException/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/out/production/DesignMenuApp/DesignMenuApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/out/production/DesignMenuApp/DesignMenuApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/src/DesignMenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/src/DesignMenuApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="15cc0f6e-9f0e-493c-b03e-cbfe4bd0aa21" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,8 +105,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StopWatch" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -169,16 +157,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559720500639</updated>
-      <workItem from="1559720502188" duration="1708000" />
+      <workItem from="1559720502188" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1708000" />
+    <option name="totallyTimeSpent" value="2353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -195,7 +182,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

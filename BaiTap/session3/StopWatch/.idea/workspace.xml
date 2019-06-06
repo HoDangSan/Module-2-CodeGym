@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5f49da-8efc-4b17-9116-f789515b9a7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../QuadraticEquation/src/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuadraticEquation/src/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StopWatch/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StopWatch/StopWatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session1/Display of geometric types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session1/Display of geometric types/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session1/Display of geometric types/out/production/Display of geometric types/ShowGeometric.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../session1/Display of geometric types/out/production/Display of geometric types/ShowGeometric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session1/Display of geometric types/src/ShowGeometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session1/Display of geometric types/src/ShowGeometric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/Delete value Array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/Delete value Array/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/Delete value Array/out/production/Delete value Array/DeleteArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/Delete value Array/out/production/Delete value Array/DeleteArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/Delete value Array/src/DeleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/Delete value Array/src/DeleteArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session2/User Class IllegalTriangleException/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session2/User Class IllegalTriangleException/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/out/production/DesignMenuApp/DesignMenuApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/out/production/DesignMenuApp/DesignMenuApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/src/DesignMenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session1/DesignMenuApp/src/DesignMenuApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fan Class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fan Class/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StopWatch/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StopWatch/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StopWatch/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StopWatch/StopWatch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,37 +17,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StopWatch/StopWatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StopWatch/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,7 +56,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,12 +79,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -174,23 +137,23 @@
       <updated>1559717162405</updated>
       <workItem from="1559717164891" duration="1844000" />
       <workItem from="1559719642931" duration="852000" />
+      <workItem from="1559723551195" duration="1734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2696000" />
+    <option name="totallyTimeSpent" value="4430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
@@ -203,6 +166,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -213,33 +177,66 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StopWatch/StopWatch.java">
+    <entry file="file://$PROJECT_DIR$/src/StopWatch/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="329">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StopWatch/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/StopWatch/StopWatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="100">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
