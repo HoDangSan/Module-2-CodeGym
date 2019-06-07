@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15cc0f6e-9f0e-493c-b03e-cbfe4bd0aa21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../session4/ Design and implement triangle Class/src/Triangle/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../session4/ Design and implement triangle Class/src/Triangle/TestTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../session4/ Design and implement triangle Class/src/Triangle/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fan/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fan/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session4/Point and MoveablePoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session4/Point and MoveablePoint/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="15cc0f6e-9f0e-493c-b03e-cbfe4bd0aa21" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,16 +17,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fan/Fan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-460">
-              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="80">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding>
                 <element signature="method#Fan#0;class#Fan#0" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/Fan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -90,8 +77,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,16 +147,17 @@
       <updated>1559720500639</updated>
       <workItem from="1559720502188" duration="2353000" />
       <workItem from="1559796140787" duration="932000" />
+      <workItem from="1559869726793" duration="93000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3285000" />
+    <option name="totallyTimeSpent" value="3378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -217,16 +205,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fan/Fan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="80">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding>
             <element signature="method#Fan#0;class#Fan#0" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -234,7 +216,7 @@
     <entry file="file://$PROJECT_DIR$/src/Fan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
