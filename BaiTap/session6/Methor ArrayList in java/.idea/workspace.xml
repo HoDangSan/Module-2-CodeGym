@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="23aa7ead-027c-4f18-a53f-b6fb433fdaf0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session7/java-cleancode-refactoring-renaming-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session7/java-cleancode-refactoring-renaming-java/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,75 +20,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MyList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/java/util/ArrayList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="265" column="4" selection-start-line="265" selection-start-column="4" selection-end-line="275" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#ArrayList#0" />
-                <element signature="e#5406#5830#0" />
-                <element signature="e#6033#6077#0" />
-                <element signature="e#6135#6207#0" />
-                <element signature="e#6271#6471#0" />
-                <element signature="e#6551#6870#0" />
-                <element signature="e#7021#7125#0" />
-                <element signature="e#7153#7406#0" />
-                <element signature="e#7811#7887#0" />
-                <element signature="e#7911#7912#0" expanded="true" />
-                <element signature="e#7979#7980#0" expanded="true" />
-                <element signature="e#7986#8307#0" />
-                <element signature="e#8787#9003#0" />
-                <element signature="e#9239#9514#0" />
-                <element signature="e#10427#10658#0" />
-                <element signature="e#10733#10946#0" />
-                <element signature="e#11704#11825#0" />
-                <element signature="e#11848#11849#0" expanded="true" />
-                <element signature="e#11875#11876#0" expanded="true" />
-                <element signature="e#11882#12027#0" />
-                <element signature="e#12096#12527#0" />
-                <element signature="e#12611#12955#0" />
-                <element signature="e#13307#13651#0" />
-                <element signature="e#14013#14207#0" />
-                <element signature="e#14592#15169#0" />
-                <element signature="e#15262#16592#0" />
-                <element signature="e#18176#18207#0" expanded="true" />
-                <element signature="e#18176#18207#0" expanded="true" />
-                <element signature="e#18207#18229#0" expanded="true" />
-                <element signature="e#18207#18229#0" expanded="true" />
-                <element signature="e#26075#26076#0" expanded="true" />
-                <element signature="e#26129#26130#0" expanded="true" />
-              </folding>
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/MyAbstractList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/MyArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/MyList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -124,6 +89,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/MyListTest.java" />
         <option value="$PROJECT_DIR$/src/MyList.java" />
+        <option value="$PROJECT_DIR$/src/com/hodangsan/util/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/hodangsan/util/MyAbstractList.java" />
+        <option value="$PROJECT_DIR$/src/com/hodangsan/util/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/hodangsan/util/MyList.java" />
       </list>
     </option>
   </component>
@@ -147,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,18 +128,25 @@
               <item name="Methor ArrayList in java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Methor ArrayList in java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Methor ArrayList in java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ThucHanh/session7/java-cleancode-refactoring-renaming-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -220,16 +195,17 @@
       <workItem from="1559902082148" duration="924000" />
       <workItem from="1560129222442" duration="3842000" />
       <workItem from="1560217688923" duration="2748000" />
+      <workItem from="1560321970491" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7514000" />
+    <option name="totallyTimeSpent" value="7841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -286,9 +262,19 @@
     <entry file="file://$PROJECT_DIR$/../../session7/java-cleancode-refactoring-Kata-TennisGame/src/TennisGame.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="2120">
           <caret line="265" column="4" selection-start-line="265" selection-start-column="4" selection-end-line="275" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -318,10 +304,6 @@
             <element signature="e#14013#14207#0" />
             <element signature="e#14592#15169#0" />
             <element signature="e#15262#16592#0" />
-            <element signature="e#18176#18207#0" expanded="true" />
-            <element signature="e#18176#18207#0" expanded="true" />
-            <element signature="e#18207#18229#0" expanded="true" />
-            <element signature="e#18207#18229#0" expanded="true" />
             <element signature="e#26075#26076#0" expanded="true" />
             <element signature="e#26129#26130#0" expanded="true" />
           </folding>
@@ -330,7 +312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="320">
           <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -338,19 +320,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/MyAbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hodangsan/util/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
