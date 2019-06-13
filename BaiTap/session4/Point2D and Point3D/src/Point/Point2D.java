@@ -21,7 +21,7 @@ public class Point2D {
     }
 
     public float getY() {
-        return y;
+        return this.y;
     }
 
     public void setY(float y) {
@@ -29,7 +29,7 @@ public class Point2D {
     }
 
     public float[] getXY() {
-        float[] arr = {getX(), getY()};
+        float[] arr = {this.getX(), this.getY()};
         return arr;
     }
 
@@ -41,9 +41,9 @@ public class Point2D {
     @Override
     public String toString() {
         return "("
-                + getX()
+                + this.getX()
                 + ", "
-                + getY()
+                + this.getY()
                 + ")";
     }
 }
