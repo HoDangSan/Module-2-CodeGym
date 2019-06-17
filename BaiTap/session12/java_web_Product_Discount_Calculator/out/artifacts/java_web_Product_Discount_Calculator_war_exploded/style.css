@@ -1,0 +1,49 @@
+#content {
+    background-color: mediumaquamarine;
+    border: 2px solid chocolate;
+    border-radius: 15px;
+    width: 423px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#title {
+    color: red;
+    align-content: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#data {
+    padding-left: 36px;
+    padding-right: 20px;
+}
+
+#lbprodes {
+    margin-right: 10px;
+}
+
+#lbdisper {
+    margin-right: 29px;
+}
+
+#lblispri {
+    margin-right: 87px;
+}
+#lbdisamo{
+    margin-right: 27px;
+}
+
+#lbdispri{
+    margin-right: 50px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#buttons {
+    position: relative;
+    left: 205px;
+    border-radius: 5px;
+}
