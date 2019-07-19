@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="uploadfile:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/uploadfile_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="uploadfile" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+      <element id="library" level="module" name="Maven: jdk.tools:jdk.tools:1.8" module-name="uploadfile" />
+      <element id="javaee-facet-resources" facet="uploadfile/web/Web" />
+    </root>
+  </artifact>
+</component>
