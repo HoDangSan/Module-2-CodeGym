@@ -7,55 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7919e160-7a7b-4b07-988c-84ec7b9108d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hien-thi-gia-vi-voi-sanwich/src/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hien-thi-gia-vi-voi-sanwich/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hien-thi-gia-vi-voi-sanwich/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hien-thi-gia-vi-voi-sanwich/web/WEB-INF/views/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hien-thi-gia-vi-voi-sanwich/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session15/trang-tin-tuc/src/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session15/trang-tin-tuc/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session15/trang-tin-tuc/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session15/trang-tin-tuc/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/src/com/dangsan/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/src/com/dangsan/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/src/com/dangsan/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/src/com/dangsan/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/web/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/web/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/Thuc-hanh-ung-dung-login/web/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/spring-timezone/src/controller/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/spring-timezone/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/spring-timezone/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/spring-timezone/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/src/main/java/controller/MyFileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/src/main/java/form/MyUploadForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/configs/spring-config-upload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/views/_menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/views/uploadMultiFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/views/uploadOneFile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/views/uploadResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/uploadfile/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmail/src/main/java/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmail/src/main/webapp/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmail/web-app/WEB_INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmail/web-app/WEB_INF/configs/spring-config-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmail/web-app/WEB_INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmailGradle/src/main/java/controllers/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmailGradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmailGradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmailGradle/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmailGradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/validateEmailGradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session15/ung-dung-tu-dien-don-gian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session15/ung-dung-tu-dien-don-gian/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session16/customer-manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/may_tinh_don_gian_war_exploded/WEB-INF/classes/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/may_tinh_don_gian_war_exploded/WEB-INF/classes/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/may_tinh_don_gian_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/may_tinh_don_gian_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/may-tinh-don-gian/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/may-tinh-don-gian/controllers/HomeController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state>
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="300">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -94,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -143,6 +112,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -153,18 +123,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="9" />
-    <option name="width" value="1227" />
-    <option name="height" value="732" />
+    <option name="x" value="493" />
+    <option name="y" value="24" />
+    <option name="width" value="826" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,12 +177,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -334,17 +299,19 @@
       <workItem from="1563432812695" duration="2174000" />
       <workItem from="1563435812697" duration="711000" />
       <workItem from="1563442302393" duration="1107000" />
+      <workItem from="1563522649090" duration="485000" />
+      <workItem from="1563523512543" duration="992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12566000" />
+    <option name="totallyTimeSpent" value="14043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -354,7 +321,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2415459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36876008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,6 +357,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -407,27 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
