@@ -1,7 +1,5 @@
 package com.dangsan.blog;
 
-import com.dangsan.blog.repository.PostsRepository;
-import com.dangsan.blog.repository.impl.PostsRepositoryImpl;
 import com.dangsan.blog.service.PostsService;
 import com.dangsan.blog.service.impl.PostsServiceImpl;
 import org.springframework.beans.BeansException;
@@ -11,6 +9,8 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.data.web.config.EnableSpringDataWebSupport;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -35,6 +35,8 @@ import java.util.Properties;
 @EnableWebMvc
 @EnableTransactionManagement
 @ComponentScan("com.dangsan.blog")
+@EnableJpaRepositories("com.dangsan.blog.repository")
+@EnableSpringDataWebSupport
 public class ApplicationConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
 
     private ApplicationContext applicationContext;
@@ -44,20 +46,18 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         this.applicationContext = applicationContext;
     }
 
-    @Bean
-    public PostsRepository postsRepository(){
-        return new PostsRepositoryImpl();
-    }
-
-    @Bean
-    public PostsService postsService(){
-        return new PostsServiceImpl();
-    }
-
+//    @Override
+//    public void addFormatters(FormatterRegistry registry){
+//        registry.addFormatter((new ProvinceFormatter(applicationContext.getBean(ProvinceService.class))));
+//    }
+        @Bean
+        PostsService postsService(){
+            return new PostsServiceImpl();
+        }
 
     //Thymeleaf Configuration
     @Bean
-    public SpringResourceTemplateResolver templateResolver(){
+    public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views");
@@ -67,14 +67,14 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     }
 
     @Bean
-    public TemplateEngine templateEngine(){
+    public TemplateEngine templateEngine() {
         TemplateEngine templateEngine = new SpringTemplateEngine();
         templateEngine.setTemplateResolver(templateResolver());
         return templateEngine;
     }
 
     @Bean
-    public ThymeleafViewResolver viewResolver(){
+    public ThymeleafViewResolver viewResolver() {
         ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
         viewResolver.setTemplateEngine(templateEngine());
         return viewResolver;
@@ -100,17 +100,17 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     }
 
     @Bean
-    public DataSource dataSource(){
+    public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/blog-app");
-        dataSource.setUsername( "root" );
-        dataSource.setPassword( "" );
+        dataSource.setUsername("root");
+        dataSource.setPassword("");
         return dataSource;
     }
 
     @Bean
-    public PlatformTransactionManager transactionManager(EntityManagerFactory emf){
+    public PlatformTransactionManager transactionManager(EntityManagerFactory emf) {
         JpaTransactionManager transactionManager = new JpaTransactionManager();
         transactionManager.setEntityManagerFactory(emf);
         return transactionManager;
@@ -122,5 +122,4 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
         return properties;
     }
-
 }

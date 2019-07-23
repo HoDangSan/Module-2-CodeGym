@@ -1,15 +1,15 @@
 package com.dangsan.blog.service;
 
 import com.dangsan.blog.model.Posts;
-
-import java.util.List;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 public interface PostsService {
-    List<Posts> findAll();
+    Page<Posts> findAll(Pageable pageable);
 
     Posts findById(Long id);
 
-    void save(Posts customer);
+    void save(Posts posts);
 
     void remove(Long id);
 }

@@ -1,11 +1,12 @@
 package com.dangsan.blog.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "posts")
 public class Posts {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String title;
     private String content;
@@ -13,15 +14,14 @@ public class Posts {
     public Posts() {
     }
 
-    public Posts(Long id, String title, String content) {
-        this.id = id;
+    public Posts(String title, String content) {
         this.title = title;
         this.content = content;
     }
 
     @Override
     public String toString() {
-        return String.format("Posts[id=%d, title='%s', context='%s']", id, title, content);
+        return String.format("Posts[id=%d, title='%s', content='%s']", id, title, content);
     }
 
     public Long getId() {
