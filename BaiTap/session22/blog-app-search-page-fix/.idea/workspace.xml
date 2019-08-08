@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="887839d3-9516-4b47-8a06-a4818b7613a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/model/CategoryVi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/model/Posts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/model/PostsVi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/repository/CategoryViRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/repository/PostsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/repository/PostsViRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/CategoryViService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/PostsViService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/impl/CategoryViServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/impl/PostsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/java/com/dangsan/news/service/impl/PostsViServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/WEB-INF/views/shared/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/WEB-INF/views/shared/_nav-header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/WEB-INF/views/shared/_right-siddebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/WEB-INF/views/shared/_slide-start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/WEB-INF/views/shared/shared-include.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/Fevicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/banner/blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/banner/hero-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/blog-slider/blog-slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/blog-slider/blog-slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/blog-slider/blog-slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/blog1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/blog2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/blog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/blog4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/cat-post/cat-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/cat-post/cat-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/cat-post/cat-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/causes/causes-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/causes/causes-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/causes/causes-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/feature-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/latest-post/l-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/latest-post/l-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/latest-post/l-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/latest-post/l-post-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/main-blog/m-blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/main-blog/m-blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/main-blog/m-blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/main-blog/m-blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/main-blog/m-blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/next.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/popular-post/post1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/popular-post/post2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/popular-post/post3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/popular-post/post4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/post-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/post-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/prev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb-card8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/thumb/thumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/blog/user-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/cart/cart1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/cart/cart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/cart/cart3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/category/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/category/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/category/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/category/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/category/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/category/s-p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/gallery/r1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/gallery/r2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/gallery/r3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/gallery/r5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/gallery/r7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/gallery/r8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/barber-frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/barber-work.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/blog1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/blog2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/blog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/hero-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/hero-slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/hero-slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/hero-slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/parallax-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/play-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/testimonial-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/testimonial1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/home/video-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/Image-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/i8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/ins-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/ins-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/ins-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/ins-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/ins-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/instagram/ins-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product-sm-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/product8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/review-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/review-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/product/review-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/r9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/team/team1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/team/team2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/img/team/team3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/linericon/fonts/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/linericon/fonts/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/linericon/fonts/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/linericon/fonts/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/linericon/fonts/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/linericon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/nice-select/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/nice-select/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/nouislider/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/nouislider/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/owl-carousel/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/skrollr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/agenda.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/alarm-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/anchor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-double-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-double-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-double-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-double-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/angle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/announcement.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-circle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-circle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-circle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-circle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-top-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-top-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrows-corner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrows-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/arrows-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/back-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/back-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bar-chart-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bar-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/basketball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/blackboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bolt-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bolt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bookmark-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/brush-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/brush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/car.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/check-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/clip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/cloud-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/cloud-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/comment-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/comments-smiley.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-eject.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-record.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-skip-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-skip-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/control-stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/css3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/cup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/cut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/direction-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/direction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/dropbox-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/dropbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/drupal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/envelope.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/eraser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/exchange-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/export.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/face-sad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/face-smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/files.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/flag-alt-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/flag-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/flickr-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/flickr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/gallery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/game.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hand-drag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hand-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hand-point-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hand-point-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hand-point-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hand-point-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hand-stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/harddrive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/harddrives.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/headphone-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/headphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/heart-broken.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/help-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/html5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/hummer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/id-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/import.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/infinite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/info-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/ink-pen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/joomla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/jsfiddle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layers-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-accordion-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-accordion-merged.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-accordion-separated.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-column2-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-column2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-column3-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-column3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-column4-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-column4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-cta-btn-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-cta-btn-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-cta-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-cta-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-cta-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-grid2-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-grid2-thumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-grid2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-grid3-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-grid3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-grid4-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-grid4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-line-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-list-large-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-list-post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-list-thumb-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-list-thumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-center-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-left-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-overlay-alt-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-overlay-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-overlay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-right-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-media-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-menu-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-menu-separated.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-menu-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-placeholder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-sidebar-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-sidebar-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-sidebar-none.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-sidebar-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-slider-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-slider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-tab-min.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-tab-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-tab-window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-width-default-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-width-default.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout-width-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/layout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/light-bulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/line-dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/line-dotted.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/line-double.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/linux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/list-ol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/location-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/location-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/magnet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/map-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/marker-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/medall-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/medall.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/menu-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/microphone-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/microphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/microsoft-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/microsoft.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/more-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/mouse-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/mouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/music-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/new-window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/notepad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/package.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/paint-bucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/paint-roller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/palette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/panel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/paragraph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pencil-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pencil-alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pie-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pin-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pin2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pinterest-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/plug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/power-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/pulse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/quote-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/quote-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/receipt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/reddit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/reload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/rss-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/ruler-alt-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/ruler-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/ruler-pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/ruler.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/save-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/share-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/sharethis-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/sharethis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shift-left-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shift-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shift-right-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shift-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shine.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shopping-cart-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/shortcode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/signal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/slice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/smallcap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/soundcloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/split-h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/split-v-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/split-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/spray.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/stack-overflow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/stamp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/stats-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/stats-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/support.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/tablet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/themify-favicon-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/themify-favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/themify-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/thought.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/thumb-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/thumb-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/ticket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/timer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/trello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/truck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/tumblr-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/tumblr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/twitter-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/unlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/uppercase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/video-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/video-clapper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/view-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/view-list-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/view-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/vimeo-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/vimeo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/wallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/wand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/wheelchair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/widget-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/widget.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/widgetized.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/wordpress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/world.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/write.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/yahoo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/SVG/zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/Themify IconFonts 5-23-2014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/ie7/ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/ie7/ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../caseStudy-news/news-caseStudy/src/main/webapp/assets/vendors/themify-icons/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/webapp/WEB-INF/views/product/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/webapp/assets/images/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/webapp/assets/images/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/webapp/assets/images/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session23/customer-management-city-search-page/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session23/customer-management-city-search-page/src/main/resources/message_vi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session22/customer-restful/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/java/com/codegym/blogqt/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/java/com/codegym/blogqt/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/java/com/codegym/blogqt/controller/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/java/com/codegym/blogqt/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/java/com/codegym/blogqt/request/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/java/com/codegym/blogqt/response/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/resources/message_haw.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/webapp/WEB-INF/views/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ThucHanh/session23/blog-qt/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/java/com/dangsan/cart/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session21/create-cart/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../session21/create-cart/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session18/customer-management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session18/customer-management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city-search-page/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city-search-page/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ThucHanh/session19/customer-management-city/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="blog-app" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="blog-app" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="blog-app" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="blog-app" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/controller/PostsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/model/Posts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/repository/PostsRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/controller/CategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/impl/CategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/impl/PostsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/ApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/posts/list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/delete.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/model/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/repository/CategoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/create.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/delete.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/model/Posts.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/create.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/formatter/CategoryFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/view.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/repository/PostsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/PostsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/impl/PostsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dangsan/blog/controller/PostsController.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="105" />
+    <option name="y" value="65" />
+    <option name="width" value="1197" />
+    <option name="height" value="664" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-app-search-page-fix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40145987" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CodeGym\CodeGymModule2\BaiTap\session19\blog-app-search-page-fix\src\main\webapp\WEB-INF\views\category" />
+      <recent name="E:\CodeGym\CodeGymModule2\BaiTap\session18\blog-app\src\main\webapp\WEB-INF" />
+      <recent name="E:\CodeGym\CodeGymModule2\BaiTap\session18\blog-app\src\main\webapp\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/posts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.dangsan : blog-app-1.0.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog-app_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51919" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.dangsan : blog-app-1.0.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="887839d3-9516-4b47-8a06-a4818b7613a9" name="Default Changelist" comment="" />
+      <created>1563761629892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563761629892</updated>
+      <workItem from="1563761632008" duration="3017000" />
+      <workItem from="1563764809058" duration="4576000" />
+      <workItem from="1563774183297" duration="3512000" />
+      <workItem from="1563785304190" duration="240000" />
+      <workItem from="1563785620344" duration="5909000" />
+      <workItem from="1563843513843" duration="2626000" />
+      <workItem from="1563846256808" duration="450000" />
+      <workItem from="1563850117567" duration="7000" />
+      <workItem from="1564039487957" duration="7149000" />
+      <workItem from="1564110823613" duration="3167000" />
+      <workItem from="1564125461853" duration="109000" />
+      <workItem from="1564129021908" duration="3089000" />
+      <workItem from="1564362912299" duration="1413000" />
+      <workItem from="1564384338037" duration="51000" />
+      <workItem from="1564455643947" duration="1263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36578000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9054463" weight="0.049919486" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32850242" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.09455371" side_tool="true" weight="0.28341386" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/impl/PostsService.java" />
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/repository/CategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="88" lean-forward="true" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="13" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/formatter/CategoryFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/ApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <element signature="e#2664#2665#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/PostsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="74" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/model/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/model/Posts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/repository/PostsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/service/impl/PostsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dangsan/blog/controller/PostsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Gradle : com.dangsan : blog-app-1.0.war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40145987" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3422104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>blog-app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3422104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3422104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

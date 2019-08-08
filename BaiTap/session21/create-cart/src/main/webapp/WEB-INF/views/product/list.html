@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Action</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Another link</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+        <br> <br> <br>
+        <h1>Amount Product in Cart: <span th:text="${cart.getAmount()}"></span></h1>
+        <form>
+            Search by title:
+            <input name="s" type="text" />
+            <input type="submit" value="Search" />
+        </form><br/>
+        <br><br>
+        <th:block th:each="product : ${products}">
+            <div class="float-left" style="width: 200px; height: 300px; background-color: aquamarine; margin-right: 10px">
+                <div style="width: 200px; height: 200px; padding: 10px ; background-color: black"><img th:src="@{'/assets/images/' + ${product.image}}" width="180px" height="180px" /></div>
+                <div style="width: 200px; height: 30px;padding-left: 10px; background-color: brown;color: white" th:text="${product.name}"></div>
+                <div style="width: 200px; height: 30px;padding-left: 10px; background-color: rgb(61, 18, 66);color: white" th:text="${product.price}"></div>
+                <div style="width: 200px; height: 40px;text-align: center; padding: 5px; background-color: rgb(49, 114, 95); color: white;"><a th:href="@{/product-detail/__${product.id}__ }">Details</a></div>
+            </div>
+        </th:block>
+        <br><br>
+        <div class="clearfix"></div>
+        <div style="width: 300px; margin: auto">
+            <div>
+                <a th:href="@{'/products'(page=${products.number - 1})}" th:if="${products.hasPrevious()}">Previous</a>
+                <span th:text="${products.number + 1}"></span>/<span th:text="${products.totalPages}"></span>
+                <a th:href="@{'/products'(page=${products.number + 1})}" th:if="${products.hasNext()}">Next</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sensive Blog - Home</title>
+    <link rel="icon" th:href="@{'/res/img/Fevicon.png'}" type="image/png">
+
+    <link rel="stylesheet" th:href="@{'/res/vendors/bootstrap/bootstrap.min.css'}">
+    <link rel="stylesheet" th:href="@{'/res/vendors/fontawesome/css/all.min.css'}">
+    <link rel="stylesheet" th:href="@{'/res/vendors/themify-icons/themify-icons.css'}">
+    <link rel="stylesheet" th:href="@{'/res/vendors/linericon/style.css'}">
+    <link rel="stylesheet" th:href="@{'/res/vendors/owl-carousel/owl.theme.default.min.css'}">
+    <link rel="stylesheet" th:href="@{'/res/vendors/owl-carousel/owl.carousel.min.css'}">
+
+    <link rel="stylesheet" th:href="@{'/res/css/style.css'}">
+</head>
+
+<body>
+<!--================Header Menu Area =================-->
+<header class="header_area" th:fragment="header-menu">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container box_1620">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand logo_h" th:href="@{/home}"><img th:src="@{'/res/img/logo.png'}"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav justify-content-center">
+                        <li class="nav-item active"><a class="nav-link" th:href="@{/home}" th:text="#{layout.home_nav}"></a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/home-new-posts}" th:text="#{layout.newsPosts_nav}"></a></li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false" th:text="#{layout.category_nav}"></a>
+                            <ul class="dropdown-menu">
+                                <th:block th:each="category : ${categories}">
+                                    <li class="nav-item"><a class="nav-link"
+                                                            th:href="@{/home-posts-by-category/__${category.id}__ }" th:text="${category.name}"></a></li>
+                                </th:block>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="category.html" th:text="#{layout.contact_nav}"></a>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false" th:text="#{layout.loginLogout_nav}"></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signIn_nav}"></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signOut_nav}"></a></li>
+                                <li class="nav-item"><a class="nav-link" href="/posts" th:text="#{layout.managePosts_nav}"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right navbar-social">
+                        <li><a href="/home?lang=en"><img th:src="@{'/res/img/en.png'}" alt="en" width="40px"></a></li>
+                        <li><a href="/home?lang=vi"><img th:src="@{'/res/img/vi.png'}" alt="en" width="40px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--================Header Menu Area =================-->
+
+<!--================Hero Banner start =================-->
+<section class="mb-30px" th:fragment="banner">
+    <div class="container">
+        <div class="hero-banner">
+            <div class="hero-banner__content">
+                <h1 th:text="#{layout.banner}"></h1>
+                <h3 id="clock"></h3>
+                <script>
+                    function moveClock(idClock,startTime){//move given clock
+                        var timeout=1000;//miliseconds to repeat the function
+
+                        if ( startTime === undefined ) {//just take the browser time
+                            rightNow = new Date();
+                            hour = rightNow.getHours();
+                            minute = rightNow.getMinutes();
+                            second = rightNow.getSeconds();
+                        }
+                        else{//starttime set
+                            rightNow = startTime.split(':',3);
+                            hour = parseInt(rightNow[0],10);
+                            minute =  parseInt(rightNow[1],10);
+                            second =  parseInt(rightNow[2],10);
+                            if (second==59){
+                                if (minute==59){
+                                    if (hour==23) hour=0;
+                                    else hour++;
+                                    minute=0;
+                                }else minute++;
+                                second=0;
+                            }else second++;
+                        }
+
+                        if (minute<10) minute= "0" + minute;
+                        if (second<10) second= "0" + second;
+
+                        currentTime=hour + ":" + minute + ":" +second;// tim to return
+                        document.getElementById(idClock).innerHTML = currentTime;//tim for the HTML element
+
+                        //recursivity
+                        if (startTime===undefined) setTimeout("moveClock('"+idClock+"')",timeout);//browser time
+                        else setTimeout("moveClock('"+idClock+"','"+currentTime+"')",timeout);//set time
+
+                    }
+                    moveClock("clock");
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================Hero Banner end =================-->
+
+<!--================ Blog slider start =================-->
+<section th:fragment="blog_slider_start">
+    <div class="container">
+        <div style="margin-bottom: 25px;font-size: 30px;color: black;">Tin Nổi Bật</div>
+        <div class="owl-carousel owl-theme blog-slider">
+            <th:block th:each="posts : ${postsTop3DateCreate}">
+                <div class="card blog__slide text-center">
+                    <div class="blog__slide__img">
+                        <img class="card-img rounded-0" th:src="@{'/uploadImage/'+ ${posts.image} }" alt="">
+                    </div>
+                    <div class="blog__slide__content">
+                        <a class="blog__slide__label" th:href="@{/detail-posts/__${posts.id}__ }" th:text="#{index.readMore}"></a>
+                        <h3><a th:href="@{/detail-posts/__${posts.id}__ }" th:text="${posts.name}"></a></h3>
+                        <p th:text="${posts.author}"></p>
+                    </div>
+                </div>
+            </th:block>
+        </div>
+    </div>
+</section>
+<!--================ Blog slider end =================-->
+
+<!-- Start Blog Post Siddebar -->
+<div class="col-lg-4 sidebar-widgets" th:fragment="siddebar-right">
+    <div class="widget-wrap">
+        <div class="single-sidebar-widget newsletter-widget">
+            <h4 class="single-sidebar-widget__title" th:text="#{layout.search_label}"></h4>
+            <form th:action="@{/home-posts-by-name}" th:method="post">
+                <div class="form-group mt-30">
+                    <div class="col-autos">
+                        <input type="text" th:name="s" class="form-control" id="inlineFormInputGroup"
+                               placeholder="Enter value"
+                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter value'">
+                    </div>
+                </div>
+                <button type="submit" class="bbtns d-block mt-20 w-100" th:text="#{layout.search_btn}"></button>
+            </form>
+        </div>
+
+
+        <div class="single-sidebar-widget post-category-widget">
+            <h4 class="single-sidebar-widget__title" th:text="#{layout.category_nav}"></h4>
+            <ul class="cat-list mt-20">
+                <th:block th:each="category : ${categories}">
+                    <li>
+                        <a th:href="@{/home-posts-by-category/__${category.id}__ }" class="d-flex justify-content-between">
+                            <p th:text="${category.name}"></p>
+                        <p>(03)</p>
+                    </a>
+                </li>
+                </th:block>
+            </ul>
+        </div>
+        <div class="single-sidebar-widget post-category-widget">
+            <iframe frameborder="0" marginwidth="0" marginheight="0" src="http://thienduongweb.com/tool/weather/?r=1&w=1&g=1&col=1&d=0" width="100%" height="480" scrolling="no"></iframe>
+        </div>
+    </div>
+</div>
+</div>
+<!-- End Blog Post Siddebar -->
+
+<!--================ Start Footer Area =================-->
+<footer class="footer-area section-padding" th:fragment="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6 th:text="#{layout.aboutUs_ft}"></h6>
+                    <p th:text="#{layout.aboutUs_content_ft}">
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6 th:text="#{layout.newsLetter_ft}"></h6>
+                    <p th:text="#{layout.newsLetter_content_ft}"></p>
+                    <div class="" id="mc_embed_signup">
+
+                        <form target="_blank" novalidate="true"
+                              action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                              method="get" class="form-inline">
+
+                            <div class="d-flex flex-row">
+
+                                <input class="form-control" name="EMAIL" placeholder="Enter Email"
+                                       onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+                                       required="" type="email">
+
+
+                                <button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span>
+                                </button>
+                                <div style="position: absolute; left: -5000px;">
+                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
+                                           type="text">
+                                </div>
+
+                                <!-- <div class="col-lg-4 col-md-4">
+                        <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
+                      </div>  -->
+                            </div>
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-6">
+                <div class="single-footer-widget mail-chimp">
+                    <h6 class="mb-20" th:text="#{layout.instragramFeed_ft}"></h6>
+                    <ul class="instafeed d-flex flex-wrap">
+                        <li><img th:src="@{'/res/img/instagram/i1.jpg'}" alt=""></li>
+                        <li><img th:src="@{'/res/img/instagram/i2.jpg'}" alt=""></li>
+                        <li><img th:src="@{'/res/img/instagram/i3.jpg'}" alt=""></li>
+                        <li><img th:src="@{'/res/img/instagram/i4.jpg'}" alt=""></li>
+                        <li><img th:src="@{'/res/img/instagram/i5.jpg'}" alt=""></li>
+                        <li><img th:src="@{'/res/img/instagram/i6.jpg'}" alt=""></li>
+                        <li><img th:src="@{'/res/img/instagram/i7.jpg'}" alt=""></li>
+                        <li><img th:src="@{'/res/img/instagram/i8.jpg'}" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6 th:text="#{layout.followUs_ft}">Follow Us</h6>
+                    <p th:text="#{layout.followUs_content_ft}"></p>
+                    <div class="footer-social d-flex align-items-center">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+            <p class="footer-text m-0">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+</footer>
+<!--================ End Footer Area =================-->
+
+<div th:fragment="script">
+    <script th:src="@{'/res/vendors/jquery/jquery-3.2.1.min.js'}"></script>
+    <script th:src="@{'/res/vendors/bootstrap/bootstrap.bundle.min.js'}"></script>
+    <script th:src="@{'/res/vendors/owl-carousel/owl.carousel.min.js'}"></script>
+    <script th:src="@{'/res/js/jquery.ajaxchimp.min.js'}"></script>
+    <script th:src="@{'/res/js/mail-script.js'}"></script>
+    <script th:src="@{'/res/js/main.js'}"></script>
+</div>
+</body>
+
+</html>

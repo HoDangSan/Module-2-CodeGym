@@ -1,5 +1,8 @@
 package com.dangsan.cart;
 
+import com.dangsan.cart.repository.ProductRepository;
+import com.dangsan.cart.service.ProductService;
+import com.dangsan.cart.service.impl.ProductServiceImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -9,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.web.config.EnableSpringDataWebSupport;
+import org.springframework.format.FormatterRegistry;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -17,6 +21,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.spring4.SpringTemplateEngine;
@@ -33,6 +38,7 @@ import java.util.Properties;
 @EnableWebMvc
 @EnableTransactionManagement
 @ComponentScan("com.dangsan.cart")
+@ComponentScan("com.dangsan.cart.resources")
 @EnableJpaRepositories("com.dangsan.cart.repository")
 @EnableSpringDataWebSupport
 public class ApplicationConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
@@ -45,17 +51,18 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     }
 
 //    @Override
-//    public void addFormatters(FormatterRegistry registry){
-//        registry.addFormatter((new ProvinceFormatter(applicationContext.getBean(ProvinceService.class))));
+//    public void addFormatters(FormatterRegistry registry) {
+//        registry.addFormatter((new CategoryFormatter(applicationContext.getBean(CategoryService.class))));
 //    }
 //
-//    @Bean
-//    public CustomerService customerService() {
-//        return new CustomerServiecImpl();
-//    }
+    @Bean
+    ProductService productService() {
+        return new ProductServiceImpl();
+    }
 //
 //    @Bean
-//    public ProvinceService provinceService() {return new ProvinceServiceImpl();
+//    CategoryService categoryService() {
+//        return new CategoryServiceImpl();
 //    }
 
     //Thymeleaf Configuration
@@ -63,7 +70,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
-        templateResolver.setPrefix("/WEB-INF/views");
+        templateResolver.setPrefix("/WEB-INF/views/");
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
         return templateResolver;
@@ -124,5 +131,15 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
         return properties;
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry)	{
+        registry
+                .addResourceHandler("/assets/**")
+                .addResourceLocations("/assets/");
+        registry
+                .addResourceHandler("/uploads/**")
+                .addResourceLocations("file:/Users/admin/Desktop/upload/");
     }
 }

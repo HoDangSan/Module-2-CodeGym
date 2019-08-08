@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="shared/layout :: head"/>
+
+<body>
+<!--================Header Menu Area =================-->
+<header th:replace="shared/layout :: header-menu"/>
+<!--================Header Menu Area =================-->
+<main class="site-main">
+    <!--================Hero Banner start =================-->
+    <section th:replace="shared/layout :: banner"></section>
+    <!--================Hero Banner end =================-->
+
+    <!--================ Blog slider start =================-->
+    <section th:replace="shared/layout :: blog_slider_start"></section>
+    <!--================ Blog slider end =================-->
+
+    <!--================ Start Blog Post Area =================-->
+    <section class="blog-post-area section-margin mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div style="margin-bottom: 30px;font-size: 30px;color: black;">Dành cho bạn</div>
+                    <!--================ Start Post Gender =================-->
+                    <th:block th:each="posts : ${postsList}">
+                        <div class="single-recent-blog-post">
+                            <div class="thumb">
+                                <img class="img-fluid" th:src="@{'/uploadImage/'+ ${posts.image} }" alt="" width="730px" height="487px">
+                                <ul class="thumb-info">
+                                    <li><a href="#"><i class="ti-user"></i><span th:text="${posts.author}"></span></a></li>
+                                    <li><a href="#"><i class="ti-notepad"></i><span th:text="${posts.dateCreate}"></span></a></li>
+                                    <li><a href="#"><i class="ti-themify-favicon"></i><span th:text="#{index.comments_29}"></span></a></li>
+                                </ul>
+                            </div>
+                            <div class="details mt-20">
+                                <a th:href="@{/detail-posts/__${posts.id}__ }">
+                                    <h3 th:text="${posts.name}"></h3>
+                                </a>
+                                <div th:if="${lang == 'en'}">
+                                    <p class="tag-list-inline">Tag: <a href="#" th:text="${posts.category.name}"></a></p>
+                                </div>
+                                <div th:unless="${lang == 'en'}">
+                                    <p class="tag-list-inline">Tag: <a href="#" th:text="${posts.categoryVi.name}"></a></p>
+                                </div>
+                                <a class="button" th:href="@{/detail-posts/__${posts.id}__ }">Read More <i class="ti-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </th:block>
+                    <div class="row"> <!--page-->
+                        <div class="col-lg-12">
+                            <nav class="blog-pagination justify-content-center d-flex">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a th:href="@{'/home'(page=${postsList.number - 1})}" th:if="${postsList.hasPrevious()}" class="page-link" aria-label="Previous">
+                                                <span aria-hidden="true">
+                                      <i class="ti-angle-left"></i>
+                                  </span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active"><span th:text="${postsList.number + 1}"></span>/<span th:text="${postsList.totalPages}"></span></li>
+                                    <li class="page-item" style="padding-top: 10px;">
+                                        <a th:href="@{'/home'(page=${postsList.number + 1})}" th:if="${postsList.hasNext()}" class="page-link" aria-label="Next">
+                                                <span aria-hidden="true">
+                                      <i class="ti-angle-right"></i>
+                                  </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--================ End Post Gender =================-->
+                </div>
+                <!-- Start Blog Post Siddebar -->
+                <div th:replace="shared/layout :: siddebar-right"></div>
+                <!-- End Blog Post Siddebar -->
+            </div>
+        </div>
+    </section>
+    <!--================ End Blog Post Area =================-->
+</main>
+
+<!--================ Start Footer Area =================-->
+<footer th:replace="shared/layout :: footer"/>
+<!--================ End Footer Area =================-->
+<div th:replace="shared/layout :: script"></div>
+</body>
+
+</html>

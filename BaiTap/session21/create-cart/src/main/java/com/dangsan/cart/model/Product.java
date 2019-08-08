@@ -3,27 +3,30 @@ package com.dangsan.cart.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "product")
+@Table(name = "products")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    private double oldPrice;
-    private double newPrice;
+    private String description;
+    private Double price;
+    private String image;
+    private int amount = 0;
 
     public Product() {
     }
 
-    public Product(String name, double oldPrice, double newPrice) {
+    public Product(String name, String description, Double price, String image) {
         this.name = name;
-        this.oldPrice = oldPrice;
-        this.newPrice = newPrice;
+        this.description = description;
+        this.price = price;
+        this.image = image;
     }
 
     @Override
     public String toString() {
-        return String.format("Product[id=%d, name='%s', oldPrice=%f, newPrice=%f]", id, name, oldPrice, newPrice);
+        return String.format("Product[id=%d, name='%s',description='%s', price=%f,image='%s',]", id, name, description, price, image);
     }
 
     public Long getId() {
@@ -42,19 +45,35 @@ public class Product {
         this.name = name;
     }
 
-    public double getOldPrice() {
-        return oldPrice;
+    public String getDescription() {
+        return description;
     }
 
-    public void setOldPrice(double oldPrice) {
-        this.oldPrice = oldPrice;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public double getNewPrice() {
-        return newPrice;
+    public Double getPrice() {
+        return price;
     }
 
-    public void setNewPrice(double newPrice) {
-        this.newPrice = newPrice;
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
 }

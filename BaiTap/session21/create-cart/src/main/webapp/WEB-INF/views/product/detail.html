@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<form>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Action</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Another link</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+        <br> <br> <br>
+        <form th:action="@{/addToCart}" th:object="${product}" method="post">
+        <div class="float-left" style="width: 300px; height: 400px;background-color: yellowgreen">
+            <img th:src="@{'/assets/images/' + ${product.image}}" width="300" height="400" />
+        </div>
+        <div class="float-left" style="width: 500px; height: 400px;background-color: rgb(129, 14, 85)">
+            <div style="width: 500px; height: 50px;padding-left: 30px; background-color: brown;color: white" th:text="${product.name}"></div>
+            <div style="width: 500px; height: 50px;padding-left: 30px; background-color: blue;color: white" th:text="${product.price}"></div>
+            <div style="width: 500px; height: 200px;padding-left: 30px; background-color: black;color: white" th:text="${product.description}"></div>
+            <div style="width: 500px; height: 100px;padding: 30px;text-align: center; background-color: blue;color: white">
+                <span style="width: 250px; height: 100px;text-align: center;background-color: crimson"><a th:href="@{/addToCart/__${product.id}__ }">Add Cart</a></span>
+                <span style="width: 250px; height: 100px;text-align: center;background-color: yellow"><a th:href="@{/product-detail/__${product.id}__ }">Buy Now</a></span>
+            </div>
+        </div>
+        <div class="float-left" style="width: 300px; height: 400px;background-color: rgb(235, 43, 43)"></div>
+        </form>
+    </div>
+</body>
+
+</html>
