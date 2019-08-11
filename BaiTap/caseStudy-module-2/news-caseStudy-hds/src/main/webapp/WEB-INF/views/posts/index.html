@@ -82,6 +82,7 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
+                                <th width="20px"></th>
                                 <th scope="col" th:text="#{posts_index.name_lb}" width="300px"></th>
                                 <th scope="col" th:text="#{posts_index.author_lb}"></th>
                                 <th scope="col" th:text="#{posts_index.dateCreate_lb}"></th>
@@ -92,6 +93,7 @@
                         <tbody>
                         <th:block th:each="posts : ${postsList}">
                             <tr>
+                                <th th:text="${postsStat.index + 1}"></th>
                                 <th scope="row"><a th:href="@{/posts-delete/__${posts.id}__ }" th:text="${posts.name}"></a></th>
                                 <td th:text="${posts.author}"></td>
                                 <td th:text="${posts.dateCreate}"></td>
