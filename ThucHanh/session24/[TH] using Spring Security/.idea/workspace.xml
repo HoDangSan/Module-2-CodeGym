@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da9681d-d138-4f83-8009-70bdf74e5b67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/java/com/codegym/configuration/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/java/com/codegym/configuration/CustomSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/java/com/codegym/configuration/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/java/com/codegym/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/java/com/codegym/controller/SercurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/webapp/WEB-INF/views/accessDenied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/webapp/WEB-INF/views/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/webapp/WEB-INF/views/dba.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[TH] phan-quyen/src/main/webapp/WEB-INF/views/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/MvcWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/java/com/dangsan/news/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/java/com/dangsan/news/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -32,11 +12,18 @@
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/build/classes/java/main/com/dangsan/news/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/build/classes/java/main/com/dangsan/news/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/build/libs/news-caseStudy-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/build/libs/news-caseStudy-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/createVi.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/createVi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/editVi.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/editVi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/posts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session16/may-tinh-don-gian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session16/may-tinh-don-gian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session19/customer-management-city-search-page/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session19/customer-management-city-search-page/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/shared/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/caseStudy-module-2/news-caseStudy-hds/src/main/webapp/WEB-INF/views/shared/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiTap/session22/blog-app-search-page-fix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BaiTap/session22/blog-app-search-page-fix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH] phan-quyen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../[TH] phan-quyen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,20 +45,20 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="453">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="233">
               <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,11 +67,37 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/SecurityWebApplicationInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/MvcWebApplicationInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -101,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="133">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#403#404#0" expanded="true" />
@@ -115,11 +128,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -148,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/WebSecurityConfigc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/WebSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -159,14 +181,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="73" />
@@ -181,6 +195,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,11 +266,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -368,33 +383,25 @@
       <option name="presentableId" value="Default" />
       <updated>1565494950876</updated>
       <workItem from="1565494954996" duration="5226000" />
+      <workItem from="1565530648174" duration="7456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5226000" />
+    <option name="totallyTimeSpent" value="12682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32850242" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32850242" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21095008" />
@@ -402,31 +409,231 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32850242" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/MvcWebApplicationInitializer.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9e3741f7cb7db06829fc818e38f58bbe9f5a0b94/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/FormLoginConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="28" column="109" selection-start-line="28" selection-start-column="109" selection-end-line="28" selection-end-column="109" />
+        <state relative-caret-position="-1061">
+          <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+          <folding>
+            <element signature="e#3259#3263#0" expanded="true" />
+            <element signature="e#3342#3378#0" expanded="true" />
+            <element signature="e#3342#3378#0" expanded="true" />
+            <element signature="e#3463#3468#0" expanded="true" />
+            <element signature="e#3476#3480#0" expanded="true" />
+            <element signature="e#3556#3592#0" expanded="true" />
+            <element signature="e#3556#3592#0" expanded="true" />
+            <element signature="e#3796#3840#0" expanded="true" />
+            <element signature="e#3796#3840#0" expanded="true" />
+            <element signature="e#3845#3850#0" expanded="true" />
+            <element signature="e#3858#3863#0" expanded="true" />
+            <element signature="e#3867#3900#0" expanded="true" />
+            <element signature="e#3867#3900#0" expanded="true" />
+            <element signature="e#3904#3933#0" expanded="true" />
+            <element signature="e#3933#3968#0" expanded="true" />
+            <element signature="e#3933#3968#0" expanded="true" />
+            <element signature="e#3968#3973#0" expanded="true" />
+            <element signature="e#3977#4048#0" expanded="true" />
+            <element signature="e#4053#4087#0" expanded="true" />
+            <element signature="e#4053#4087#0" expanded="true" />
+            <element signature="e#4087#4092#0" expanded="true" />
+            <element signature="e#4096#4167#0" expanded="true" />
+            <element signature="e#4172#4206#0" expanded="true" />
+            <element signature="e#4172#4206#0" expanded="true" />
+            <element signature="e#4206#4211#0" expanded="true" />
+            <element signature="e#4215#4221#0" expanded="true" />
+            <element signature="e#4229#4256#0" expanded="true" />
+            <element signature="e#4229#4256#0" expanded="true" />
+            <element signature="e#4521#4527#0" expanded="true" />
+            <element signature="e#4655#4710#0" expanded="true" />
+            <element signature="e#4655#4710#0" expanded="true" />
+            <element signature="e#4714#4733#0" expanded="true" />
+            <element signature="e#4753#4772#0" expanded="true" />
+            <element signature="e#4776#4796#0" expanded="true" />
+            <element signature="e#4776#4796#0" expanded="true" />
+            <element signature="e#4800#4849#0" expanded="true" />
+            <element signature="e#4800#4849#0" expanded="true" />
+            <element signature="e#4800#4849#0" expanded="true" />
+            <element signature="e#4800#4849#0" expanded="true" />
+            <element signature="e#4853#4966#0" expanded="true" />
+            <element signature="e#4853#4966#0" expanded="true" />
+            <element signature="e#4970#4994#0" expanded="true" />
+            <element signature="e#5015#5020#0" expanded="true" />
+            <element signature="e#5024#5047#0" expanded="true" />
+            <element signature="e#5024#5047#0" expanded="true" />
+            <element signature="e#5087#5119#0" expanded="true" />
+            <element signature="e#5159#5164#0" expanded="true" />
+            <element signature="e#5168#5212#0" expanded="true" />
+            <element signature="e#5252#5259#0" expanded="true" />
+            <element signature="e#5263#5292#0" expanded="true" />
+            <element signature="e#5263#5292#0" expanded="true" />
+            <element signature="e#5296#5320#0" expanded="true" />
+            <element signature="e#5296#5320#0" expanded="true" />
+            <element signature="e#5324#5345#0" expanded="true" />
+            <element signature="e#5324#5345#0" expanded="true" />
+            <element signature="e#5349#5473#0" expanded="true" />
+            <element signature="e#5349#5473#0" expanded="true" />
+            <element signature="e#5477#5501#0" expanded="true" />
+            <element signature="e#5523#5528#0" expanded="true" />
+            <element signature="e#5532#5555#0" expanded="true" />
+            <element signature="e#5532#5555#0" expanded="true" />
+            <element signature="e#5604#5628#0" expanded="true" />
+            <element signature="e#5604#5628#0" expanded="true" />
+            <element signature="e#5632#5653#0" expanded="true" />
+            <element signature="e#5632#5653#0" expanded="true" />
+            <element signature="e#5657#5674#0" expanded="true" />
+            <element signature="e#5657#5674#0" expanded="true" />
+            <element signature="e#5678#5736#0" expanded="true" />
+            <element signature="e#5678#5736#0" expanded="true" />
+            <element signature="e#5678#5736#0" expanded="true" />
+            <element signature="e#5678#5736#0" expanded="true" />
+            <element signature="e#5740#5804#0" expanded="true" />
+            <element signature="e#5740#5804#0" expanded="true" />
+            <element signature="e#5808#5826#0" expanded="true" />
+            <element signature="e#5808#5826#0" expanded="true" />
+            <element signature="e#5830#5847#0" expanded="true" />
+            <element signature="e#5830#5847#0" expanded="true" />
+            <element signature="e#5851#5909#0" expanded="true" />
+            <element signature="e#5851#5909#0" expanded="true" />
+            <element signature="e#5851#5909#0" expanded="true" />
+            <element signature="e#5851#5909#0" expanded="true" />
+            <element signature="e#5913#5981#0" expanded="true" />
+            <element signature="e#5913#5981#0" expanded="true" />
+            <element signature="e#5985#6003#0" expanded="true" />
+            <element signature="e#5985#6003#0" expanded="true" />
+            <element signature="e#6007#6130#0" expanded="true" />
+            <element signature="e#6007#6130#0" expanded="true" />
+            <element signature="e#6134#6151#0" expanded="true" />
+            <element signature="e#6134#6151#0" expanded="true" />
+            <element signature="e#6155#6220#0" expanded="true" />
+            <element signature="e#6155#6220#0" expanded="true" />
+            <element signature="e#6155#6220#0" expanded="true" />
+            <element signature="e#6155#6220#0" expanded="true" />
+            <element signature="e#6224#6298#0" expanded="true" />
+            <element signature="e#6224#6298#0" expanded="true" />
+            <element signature="e#6302#6320#0" expanded="true" />
+            <element signature="e#6302#6320#0" expanded="true" />
+            <element signature="e#6324#6343#0" expanded="true" />
+            <element signature="e#6324#6343#0" expanded="true" />
+            <element signature="e#6347#6420#0" expanded="true" />
+            <element signature="e#6347#6420#0" expanded="true" />
+            <element signature="e#6347#6420#0" expanded="true" />
+            <element signature="e#6347#6420#0" expanded="true" />
+            <element signature="e#6424#6444#0" expanded="true" />
+            <element signature="e#6424#6444#0" expanded="true" />
+            <element signature="e#6448#6469#0" expanded="true" />
+            <element signature="e#6448#6469#0" expanded="true" />
+            <element signature="e#6473#6487#0" expanded="true" />
+            <element signature="e#6473#6487#0" expanded="true" />
+            <element signature="e#6491#6498#0" expanded="true" />
+            <element signature="e#6506#6540#0" expanded="true" />
+            <element signature="e#6506#6540#0" expanded="true" />
+            <element signature="e#6715#6720#0" expanded="true" />
+            <element signature="e#6724#6761#0" expanded="true" />
+            <element signature="e#6724#6761#0" expanded="true" />
+            <element signature="e#6765#6847#0" expanded="true" />
+            <element signature="e#6765#6847#0" expanded="true" />
+            <element signature="e#6851#6928#0" expanded="true" />
+            <element signature="e#6851#6928#0" expanded="true" />
+            <element signature="e#6932#7006#0" expanded="true" />
+            <element signature="e#6932#7006#0" expanded="true" />
+            <element signature="e#7010#7016#0" expanded="true" />
+            <element signature="e#7116#7121#0" expanded="true" />
+            <element signature="e#7125#7169#0" expanded="true" />
+            <element signature="e#7125#7169#0" expanded="true" />
+            <element signature="e#7173#7257#0" expanded="true" />
+            <element signature="e#7261#7267#0" expanded="true" />
+            <element signature="e#7271#7355#0" expanded="true" />
+            <element signature="e#7271#7355#0" expanded="true" />
+            <element signature="e#7359#7440#0" expanded="true" />
+            <element signature="e#7359#7440#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="e#7576#7603#0" expanded="true" />
+            <element signature="e#7576#7603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/MvcWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9e3741f7cb7db06829fc818e38f58bbe9f5a0b94/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="895" column="41" selection-start-line="895" selection-start-column="41" selection-end-line="895" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/MvcWebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,63 +650,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/SecurityWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="233">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/SecurityWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

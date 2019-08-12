@@ -45,7 +45,7 @@ public class HomeController {
     }
 
     // View Posts for customer
-    @GetMapping(value = "/home", produces = "application/json;charset=UTF-8")
+    @GetMapping(value = {"", "/","/home"}, produces = "application/json;charset=UTF-8")
     public ModelAndView homeForm(@PageableDefault(size = 4) Pageable pageable, Locale locale) {
         String language = locale.getLanguage();
 

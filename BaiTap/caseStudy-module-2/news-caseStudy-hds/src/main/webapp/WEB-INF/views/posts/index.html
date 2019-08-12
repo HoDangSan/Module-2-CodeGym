@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,11 +50,25 @@
                         <li class="nav-item"><a class="nav-link" href="category.html" th:text="#{layout.contact_nav}"></a>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false" th:text="#{layout.loginLogout_nav}"></a>
+                               aria-haspopup="true" aria-expanded="false">
+                                <div sec:authorize="isAnonymous()">
+                                    <div th:text="#{layout.loginLogout_nav}"></div>
+                                </div>
+                                <div sec:authorize="isAuthenticated()">
+                                    <div sec:authentication="principal.username"></div>
+                                </div>
+                            </a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signIn_nav}"></a></li>
-                                <li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signOut_nav}"></a></li>
-                                <li class="nav-item"><a class="nav-link" href="/posts" th:text="#{layout.managePosts_nav}"></a></li>
+                                <li class="nav-item" sec:authorize="isAnonymous()">
+                                    <a class="nav-link" th:href="@{/posts}" th:text="#{layout.signIn_nav}"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/posts" th:text="#{layout.managePosts_nav}"></a>
+                                </li>
+                                <!--<li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signOut_nav}"></a></li>-->
+                                <li class="nav-item" sec:authorize="isAuthenticated()">
+                                    <a class="nav-link" th:href="@{/logout}">Logout</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>

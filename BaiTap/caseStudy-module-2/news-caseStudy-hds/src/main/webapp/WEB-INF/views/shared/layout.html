@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 
 <head th:fragment="head">
     <meta charset="UTF-8">
@@ -37,26 +38,44 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav justify-content-center">
-                        <li class="nav-item active"><a class="nav-link" th:href="@{/home}" th:text="#{layout.home_nav}"></a></li>
-                        <li class="nav-item"><a class="nav-link" th:href="@{/home-new-posts}" th:text="#{layout.newsPosts_nav}"></a></li>
+                        <li class="nav-item active"><a class="nav-link" th:href="@{/home}"
+                                                       th:text="#{layout.home_nav}"></a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/home-new-posts}"
+                                                th:text="#{layout.newsPosts_nav}"></a></li>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false" th:text="#{layout.category_nav}"></a>
                             <ul class="dropdown-menu">
                                 <th:block th:each="category : ${categories}">
                                     <li class="nav-item"><a class="nav-link"
-                                                            th:href="@{/home-posts-by-category/__${category.id}__ }" th:text="${category.name}"></a></li>
+                                                            th:href="@{/home-posts-by-category/__${category.id}__ }"
+                                                            th:text="${category.name}"></a></li>
                                 </th:block>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="category.html" th:text="#{layout.contact_nav}"></a>
+                        <li class="nav-item"><a class="nav-link" href="category.html"
+                                                th:text="#{layout.contact_nav}"></a>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false" th:text="#{layout.loginLogout_nav}"></a>
+                               aria-haspopup="true" aria-expanded="false">
+                                <div sec:authorize="isAnonymous()">
+                                    <div th:text="#{layout.loginLogout_nav}"></div>
+                                </div>
+                                <div sec:authorize="isAuthenticated()">
+                                    <div sec:authentication="principal.username"></div>
+                                </div>
+                            </a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signIn_nav}"></a></li>
-                                <li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signOut_nav}"></a></li>
-                                <li class="nav-item"><a class="nav-link" href="/posts" th:text="#{layout.managePosts_nav}"></a></li>
+                                <li class="nav-item" sec:authorize="isAnonymous()">
+                                    <a class="nav-link" th:href="@{/posts}" th:text="#{layout.signIn_nav}"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/posts" th:text="#{layout.managePosts_nav}"></a>
+                                </li>
+                                <!--<li class="nav-item"><a class="nav-link" href="#" th:text="#{layout.signOut_nav}"></a></li>-->
+                                <li class="nav-item" sec:authorize="isAuthenticated()">
+                                    <a class="nav-link" th:href="@{/logout}">Logout</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -79,41 +98,41 @@
                 <h1 th:text="#{layout.banner}"></h1>
                 <h3 id="clock"></h3>
                 <script>
-                    function moveClock(idClock,startTime){//move given clock
-                        var timeout=1000;//miliseconds to repeat the function
+                    function moveClock(idClock, startTime) {//move given clock
+                        var timeout = 1000;//miliseconds to repeat the function
 
-                        if ( startTime === undefined ) {//just take the browser time
+                        if (startTime === undefined) {//just take the browser time
                             rightNow = new Date();
                             hour = rightNow.getHours();
                             minute = rightNow.getMinutes();
                             second = rightNow.getSeconds();
-                        }
-                        else{//starttime set
-                            rightNow = startTime.split(':',3);
-                            hour = parseInt(rightNow[0],10);
-                            minute =  parseInt(rightNow[1],10);
-                            second =  parseInt(rightNow[2],10);
-                            if (second==59){
-                                if (minute==59){
-                                    if (hour==23) hour=0;
+                        } else {//starttime set
+                            rightNow = startTime.split(':', 3);
+                            hour = parseInt(rightNow[0], 10);
+                            minute = parseInt(rightNow[1], 10);
+                            second = parseInt(rightNow[2], 10);
+                            if (second == 59) {
+                                if (minute == 59) {
+                                    if (hour == 23) hour = 0;
                                     else hour++;
-                                    minute=0;
-                                }else minute++;
-                                second=0;
-                            }else second++;
+                                    minute = 0;
+                                } else minute++;
+                                second = 0;
+                            } else second++;
                         }
 
-                        if (minute<10) minute= "0" + minute;
-                        if (second<10) second= "0" + second;
+                        if (minute < 10) minute = "0" + minute;
+                        if (second < 10) second = "0" + second;
 
-                        currentTime=hour + ":" + minute + ":" +second;// tim to return
+                        currentTime = hour + ":" + minute + ":" + second;// tim to return
                         document.getElementById(idClock).innerHTML = currentTime;//tim for the HTML element
 
                         //recursivity
-                        if (startTime===undefined) setTimeout("moveClock('"+idClock+"')",timeout);//browser time
-                        else setTimeout("moveClock('"+idClock+"','"+currentTime+"')",timeout);//set time
+                        if (startTime === undefined) setTimeout("moveClock('" + idClock + "')", timeout);//browser time
+                        else setTimeout("moveClock('" + idClock + "','" + currentTime + "')", timeout);//set time
 
                     }
+
                     moveClock("clock");
                 </script>
             </div>
@@ -130,10 +149,11 @@
             <th:block th:each="posts : ${postsTop3DateCreate}">
                 <div class="card blog__slide text-center">
                     <div class="blog__slide__img">
-                        <img class="card-img rounded-0" th:src="@{'/uploadImage/'+ ${posts.image} }" alt="">
+                        <img class="card-img rounded-0" th:src="@{'/uploadImage/'+ ${posts.image} }" alt="" style="width: 349px; height: 233px">
                     </div>
                     <div class="blog__slide__content">
-                        <a class="blog__slide__label" th:href="@{/detail-posts/__${posts.id}__ }" th:text="#{index.readMore}"></a>
+                        <a class="blog__slide__label" th:href="@{/detail-posts/__${posts.id}__ }"
+                           th:text="#{index.readMore}"></a>
                         <h3><a th:href="@{/detail-posts/__${posts.id}__ }" th:text="${posts.name}"></a></h3>
                         <p th:text="${posts.author}"></p>
                     </div>
@@ -167,16 +187,19 @@
             <ul class="cat-list mt-20">
                 <th:block th:each="category : ${categories}">
                     <li>
-                        <a th:href="@{/home-posts-by-category/__${category.id}__ }" class="d-flex justify-content-between">
+                        <a th:href="@{/home-posts-by-category/__${category.id}__ }"
+                           class="d-flex justify-content-between">
                             <p th:text="${category.name}"></p>
-                        <p>(03)</p>
-                    </a>
-                </li>
+                            <p>(03)</p>
+                        </a>
+                    </li>
                 </th:block>
             </ul>
         </div>
         <div class="single-sidebar-widget post-category-widget">
-            <iframe frameborder="0" marginwidth="0" marginheight="0" src="http://thienduongweb.com/tool/weather/?r=1&w=1&g=1&col=1&d=0" width="100%" height="480" scrolling="no"></iframe>
+            <iframe frameborder="0" marginwidth="0" marginheight="0"
+                    src="http://thienduongweb.com/tool/weather/?r=1&w=1&g=1&col=1&d=0" width="100%" height="480"
+                    scrolling="no"></iframe>
         </div>
     </div>
 </div>
